@@ -22,4 +22,4 @@ Master_and_Margarita = Book(name="Master and Margarita", year="1929-1940", genre
                             author="Michael Bulgakov", price="400$")
 
 print(Master_and_Margarita.get_name())
-(Master_and_Margarita.rating(book_rating=1.7, good_rating=2))
+(Master_and_Margarita.rating(book_rating=2.2, good_rating=2))
