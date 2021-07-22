@@ -32,7 +32,20 @@ counts(a=3, b=10)
 # Функция принимает в качестве параметров:длину стороны квадрата, символ и переменную логического типа:
 # ■ если она равна True, квадрат заполненный; ■ если False, квадрат пустой.
 
+def square_of_symbols(square_length, symbol, condition_var):
+    for z in range(square_length):
+        if condition_var:
+            # i = 1
+            # while i <= square_length:
+            print(symbol * square_length)
+            # i += 1
+        elif z == 0 or z == square_length - 1:
+            print(symbol * square_length)
+        else:
+            print(symbol, ' ' * (square_length - 2), symbol, sep='')
 
 
-def square(a, b ,c ,d):
-
+user_length = int(input('Введите длину стороны квадрата: '))
+user_symbol = input('Введите символ для заполнения квадрата: ')
+user_condition = int(input('Введите 1 для заполнения квадрата и 0 для создания пустого квадрата: '))
+square_of_symbols(user_length, user_symbol, user_condition)

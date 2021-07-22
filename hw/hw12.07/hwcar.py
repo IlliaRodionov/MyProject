@@ -28,7 +28,7 @@ bmw = Car(name="BMW", year_of_issue=2012, manufacturer="Germany", engine=":2.0(d
           transmission="8-speed automatic transmission", price="12000$")
 print(bmw.get_name())
 print(bmw.exclusive_options())
-print(bmw.get_price(12000, 500, 2500, ))
+print(("Final price:"), bmw.get_price(12000, 500, 2500, ))
 
 opel = Car(name="Opel", year_of_issue=2021, manufacturer="France", engine=":3.3(petrol)", color=":Orange Lava",
            transmission="6-Manual Transmission", price="45000$")
