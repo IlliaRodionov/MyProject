@@ -8,11 +8,11 @@
 </head>
 <body>
 {% block mainmenu %}
-<u1>
-    {% for m in menu%}
+<ul>
+    {% for m in menu %}
     <li>{{m}}</li>
     {% endfor %}
-</u1>
+</ul>
 {% endblock mainmenu %}
 
 {% block content %}
